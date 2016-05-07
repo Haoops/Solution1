@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{FD7224E7-1981-44EB-95F0-C9150A74FF6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{B8FA66E8-367F-409B-A3BE-59BC7EB00A58}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\README.txt = Docs\README.txt
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject1", "SharedProject1\SharedProject1.shproj", "{B4E6F4B8-61C5-45FC-8C93-3F5A8B29F68B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject1\SharedProject1.projitems*{b4e6f4b8-61c5-45fc-8c93-3f5a8b29f68b}*SharedItemsImports = 13
+		SharedProject1\SharedProject1.projitems*{fd7224e7-1981-44eb-95f0-c9150a74ff6c}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD7224E7-1981-44EB-95F0-C9150A74FF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7224E7-1981-44EB-95F0-C9150A74FF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7224E7-1981-44EB-95F0-C9150A74FF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7224E7-1981-44EB-95F0-C9150A74FF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
