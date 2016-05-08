@@ -1,0 +1,26 @@
+﻿<#@ template language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+        public static void <#= GetName #>(int id) {
+            try
+            {
+                switch (id)
+                {
+                    case 1:
+                        
+                        break;
+                    default:
+
+                        break;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+    <#+ public string GetName { get; set; } #>

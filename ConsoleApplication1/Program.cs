@@ -11,13 +11,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var p = new Person();
+            for (int i = 0; i < 3; i++)
+            {
+               var tt = new RuntimeTextTemplate1();
+                tt.GetName = "Name_" + i.ToString();
+                string output = tt.TransformText();
+                Console.WriteLine(output);
+                Console.WriteLine("\r\n");
 
-            p.id = 1;
-            p.name = "Kevin";
-
-            Console.WriteLine(p.name);
-
+            }
         }
     }
 }
